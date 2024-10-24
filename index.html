@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="icon" href="favicon.svg" type="image/svg+xml">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Connect Wallet Page</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #000;
+            font-family: Arial, sans-serif;
+            color: #fff;
+        }
+
+        .container {
+            text-align: center;
+        }
+
+        .container h2 {
+            margin-bottom: 20px;
+            font-size: 20px;
+            font-weight: normal;
+        }
+
+        .connect-button {
+            padding: 15px 30px;
+            background-color: #6f2df6;
+            color: white;
+            border: none;
+            font-size: 16px;
+            font-weight: bold;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: background 0.3s ease, transform 0.2s ease;
+        }
+
+        .connect-button:hover {
+            background-color: #9b5dfd;
+            transform: translateY(-5px);
+            box-shadow: 0 8px 16px rgba(111, 45, 246, 0.3);
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h2>Please connect your wallet to proceed.</h2>
+        <button class="connect-button connect-wallet">Connect</button>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
